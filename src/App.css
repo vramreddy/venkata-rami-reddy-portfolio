@@ -207,6 +207,16 @@
    so our !important rules win over Bootstrap's
    ===================================================== */
 
+[data-theme='dark'] {
+  --bs-body-bg: #0b0f19;
+  --bs-body-color: #f8fafc;
+}
+
+[data-theme='dark'] body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
 /* --- Text color utilities --- */
 [data-theme='dark'] .text-secondary {
   color: var(--text-secondary) !important;
@@ -664,4 +674,20 @@
     top: 98%;
     opacity: 0.8;
   }
+}
+
+@keyframes bounce-left {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+}
+
+.resume-hint {
+  font-size: 0.82rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  animation: bounce-left 1.5s ease-in-out infinite;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, FileText, ArrowRight } from 'lucide-react';
+import { Mail, FileText, ArrowRight, ArrowLeft } from 'lucide-react';
 import { GithubIcon as Github, LinkedinIcon as Linkedin } from './Icons';
 
 export default function Hero() {
@@ -32,17 +32,22 @@ export default function Hero() {
               <a href="#contact" className="btn btn-outline-custom">
                 Get In Touch
               </a>
-              <a
-                href="/resume.pdf"
-                download="Gelli_Venkata_Rami_Reddy_Resume.pdf"
-                className="btn btn-link text-decoration-none fw-bold text-secondary hover-accent d-inline-flex align-items-center gap-1 ms-2"
-                onClick={(e) => {
-                  // If resume.pdf doesn't exist, we can fallback to printing the window or alert
-                  // We will also create a dummy file just in case, but let's make it alert if it's missing in a nice way
-                }}
-              >
-                <FileText size={18} /> Resume
-              </a>
+              <div className="d-inline-flex align-items-center gap-2">
+                <a
+                  href="/resume.pdf"
+                  download="Gelli_Venkata_Rami_Reddy_Resume.pdf"
+                  className="btn btn-link text-decoration-none fw-bold text-secondary hover-accent d-inline-flex align-items-center gap-1"
+                  onClick={(e) => {
+                    // If resume.pdf doesn't exist, we can fallback to printing the window or alert
+                    // We will also create a dummy file just in case, but let's make it alert if it's missing in a nice way
+                  }}
+                >
+                  <FileText size={18} /> Resume
+                </a>
+                <span className="resume-hint d-inline-flex align-items-center gap-1">
+                  <ArrowLeft size={16} /> Click to View My Resume
+                </span>
+              </div>
             </div>
 
             <div className="hero-socials d-flex gap-3">

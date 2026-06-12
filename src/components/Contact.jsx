@@ -117,7 +117,7 @@ export default function Contact() {
 
         <div className="row g-5">
           {/* Info Card column */}
-          <div className="col-lg-5 text-start">
+          <div className="col-lg-5 text-start order-2 order-lg-1">
             <div className="card-custom h-100 d-flex flex-column justify-content-between">
               <div>
                 <h3 className="h4 fw-bold mb-3">Let's connect!</h3>
@@ -174,7 +174,7 @@ export default function Contact() {
           </div>
 
           {/* Form column */}
-          <div className="col-lg-7 text-start">
+          <div className="col-lg-7 text-start order-1 order-lg-2">
             <div className="card-custom">
               <h3 className="h4 fw-bold mb-4">Send a Message</h3>
               <form onSubmit={handleSubmit}>
