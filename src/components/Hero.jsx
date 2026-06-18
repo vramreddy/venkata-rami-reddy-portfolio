@@ -22,7 +22,7 @@ export default function Hero() {
               Full Stack Developer · MERN Stack · AI Enthusiast
             </h2>
             <p className="lead text-secondary mb-5" style={{ maxWidth: '600px', fontSize: '01.15rem', lineHeight: '1.6', fontWeight: '400' }}>
-              Results-driven developer with hands-on experience building scalable, full-stack web applications. Proactive learner specializing in React.js, Node.js, Express.js, MongoDB, and AI API integrations.
+              A passionate developer with hands on experience building scalable, full stack web applications. Proactive learner specializing in React.js, Node.js, Express.js, MongoDB, and AI API integrations.
             </p>
 
             <div className="d-flex flex-wrap gap-3 align-items-center mb-5">

@@ -49,7 +49,7 @@ export default function About() {
                 <span className="text-gradient">Professional Summary</span>
               </h3>
               <p className="text-secondary mb-4" style={{ fontSize: '1.08rem', lineHeight: '1.75' }}>
-                I am a results-driven MERN Stack Developer and M.Sc. Computer Science candidate with a strong academic foundation and hands-on experience building scalable, full-stack web applications. I am highly proficient in modern web technologies including React.js, Node.js, Express.js, and MongoDB, with a focus on writing clean, maintainable code, designing robust RESTful APIs, and implementing secure JWT-based authentication workflows.
+                I am a passionate MERN Stack Developer and M.Sc. Computer Science candidate with a strong academic foundation and hands-on experience building scalable, full-stack web applications. I am highly proficient in modern web technologies including React.js, Node.js, Express.js, and MongoDB, with a focus on writing clean, maintainable code, designing robust RESTful APIs, and implementing secure JWT-based authentication workflows.
               </p>
               <p className="text-secondary" style={{ fontSize: '1.08rem', lineHeight: '1.75' }}>
                 Through NXT Wave’s intensive MERN Stack developer program, I completed 600+ hours of dedicated coding and over 24 practical assignments. These spanned across e-commerce, LMS, social media, and food delivery applications. I am seeking a challenging, growth-oriented engineering role where I can apply my development skills and continue learning alongside experienced teams.
