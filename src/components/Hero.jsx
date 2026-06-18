@@ -22,7 +22,7 @@ export default function Hero() {
               Full Stack Developer · MERN Stack · AI Enthusiast
             </h2>
             <p className="lead text-secondary mb-5" style={{ maxWidth: '600px', fontSize: '01.15rem', lineHeight: '1.6', fontWeight: '400' }}>
-              A passionate developer with hands on experience building scalable, full stack web applications. Proactive learner specializing in React.js, Node.js, Express.js, MongoDB, and AI API integrations.
+              I am a MERN Stack Developer with hands on experience building scalable, full stack web applications. Proactive learner specializing in React.js, Node.js, Express.js, MongoDB, and AI API integrations.
             </p>
 
             <div className="d-flex flex-wrap gap-3 align-items-center mb-5">
@@ -34,13 +34,11 @@ export default function Hero() {
               </a>
               <div className="d-inline-flex align-items-center gap-2">
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/uc?export=download&id=1yr1Mv6sSXkrbEVrFdnqY45juelfTPQhO"
                   download="Gelli_Venkata_Rami_Reddy_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-link text-decoration-none fw-bold text-secondary hover-accent d-inline-flex align-items-center gap-1"
-                  onClick={(e) => {
-                    // If resume.pdf doesn't exist, we can fallback to printing the window or alert
-                    // We will also create a dummy file just in case, but let's make it alert if it's missing in a nice way
-                  }}
                 >
                   <FileText size={18} /> Resume
                 </a>
