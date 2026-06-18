@@ -2,12 +2,7 @@
 
 A responsive personal portfolio website showcasing my skills, projects, and experience as a MERN Stack Developer.
 
-## 🔗 Live Demo
 
-
-## 🛠️ Built With
-- HTML5, CSS3, JavaScript
-- Responsive Design
 
 ## 📌 Features
 - About Me section
