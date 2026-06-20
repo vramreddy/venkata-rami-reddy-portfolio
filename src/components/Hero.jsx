@@ -12,58 +12,9 @@ export default function Hero() {
       <div className="blob-decoration blob-2"></div>
 
       <div className="container position-relative z-1">
-        <div className="row align-items-center">
-          <div className="col-lg-8 text-start">
-            <span className="badge-custom mb-3 py-2 px-3 fw-bold text-uppercase" style={{ letterSpacing: '1px' }}>
-              Available for Opportunities
-            </span>
-            <h1 className="display-3 fw-extrabold mb-2" style={{ letterSpacing: '-2px', lineHeight: 1.1 }}>
-              Hi, I'm <span className="text-gradient">Venkata Rami Reddy</span>
-            </h1>
-            <h2 className="fs-2 fw-semibold text-secondary mb-4">
-              Full Stack Developer · MERN Stack · AI Enthusiast
-            </h2>
-            <p className="lead text-secondary mb-5" style={{ maxWidth: '600px', fontSize: '01.15rem', lineHeight: '1.6', fontWeight: '400' }}>
-              I am a MERN Stack Developer with hands on experience building scalable, full stack web applications. Proactive learner specializing in React.js, Node.js, Express.js, MongoDB, and AI API integrations.
-            </p>
-
-            <div className="d-flex flex-wrap gap-3 align-items-center mb-5">
-              <a href="#projects" className="btn btn-primary-custom d-inline-flex align-items-center gap-2">
-                View My Work <ArrowRight size={18} />
-              </a>
-              <a href="#contact" className="btn btn-outline-custom">
-                Get In Touch
-              </a>
-              <div className="d-inline-flex align-items-center gap-2">
-                <a
-                  href="https://drive.google.com/uc?export=download&id=1yr1Mv6sSXkrbEVrFdnqY45juelfTPQhO"
-                  download="Gelli_Venkata_Rami_Reddy_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-link text-decoration-none fw-bold text-secondary hover-accent d-inline-flex align-items-center gap-1"
-                >
-                  <FileText size={18} /> Resume
-                </a>
-                <span className="resume-hint d-inline-flex align-items-center gap-1">
-                  <ArrowLeft size={16} /> Click to View My Resume
-                </span>
-              </div>
-            </div>
-
-            <div className="hero-socials d-flex gap-3">
-              <a href="https://github.com/vramreddy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github size={20} />
-              </a>
-              <a href="https://www.linkedin.com/in/venkata-rami-reddy/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin size={20} />
-              </a>
-              <a href="mailto:vramireddy566@gmail.com" aria-label="Email">
-                <Mail size={20} />
-              </a>
-            </div>
-          </div>
-
-          <div className="col-lg-4 d-none d-lg-flex flex-column justify-content-center align-items-center">
+        <div className="row justify-content-center text-center">
+          {/* --- Image Widget First (Top on all devices) --- */}
+          <div className="col-12 d-flex flex-column justify-content-center align-items-center mb-5">
             {/* Full Stack & AI Developer Animated Widget */}
             <div className="profile-widget mb-4">
 
@@ -129,6 +80,55 @@ export default function Hero() {
               </p>
             </div>
           </div>
+          
+          {/* --- Text Content Below (Centered) --- */}
+          <div className="col-12 col-lg-10 text-center d-flex flex-column align-items-center">
+            <span className="badge-custom mb-3 py-2 px-3 fw-bold text-uppercase" style={{ letterSpacing: '1px' }}>
+              Available for Opportunities
+            </span>
+            <h1 className="display-3 fw-extrabold mb-2" style={{ letterSpacing: '-2px', lineHeight: 1.1 }}>
+              Hi, I'm <span className="text-gradient">Venkata Rami Reddy</span>
+            </h1>
+            <h2 className="fs-2 fw-semibold text-secondary mb-4">
+              Full Stack Developer · MERN Stack · AI Enthusiast
+            </h2>
+            <p className="lead text-secondary mb-5 mx-auto" style={{ maxWidth: '600px', fontSize: '1.15rem', lineHeight: '1.6', fontWeight: '400' }}>
+              I am a MERN Stack Developer with hands on experience building scalable, full stack web applications. Proactive learner specializing in React.js, Node.js, Express.js, MongoDB, and AI API integrations.
+            </p>
+
+            <div className="d-flex flex-wrap gap-3 justify-content-center align-items-center mb-5">
+              <a href="#projects" className="btn btn-primary-custom d-inline-flex align-items-center gap-2">
+                View My Work <ArrowRight size={18} />
+              </a>
+              <a href="#contact" className="btn btn-outline-custom">
+                Get In Touch
+              </a>
+              <div className="d-inline-flex align-items-center gap-2">
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1yr1Mv6sSXkrbEVrFdnqY45juelfTPQhO"
+                  download="Gelli_Venkata_Rami_Reddy_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-link text-decoration-none fw-bold text-secondary hover-accent d-inline-flex align-items-center gap-1"
+                >
+                  <FileText size={18} /> Resume
+                </a>
+              </div>
+            </div>
+
+            <div className="hero-socials d-flex gap-3 justify-content-center">
+              <a href="https://github.com/vramreddy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github size={20} />
+              </a>
+              <a href="https://www.linkedin.com/in/venkata-rami-reddy/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Linkedin size={20} />
+              </a>
+              <a href="mailto:vramireddy566@gmail.com" aria-label="Email">
+                <Mail size={20} />
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
