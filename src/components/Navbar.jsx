@@ -3,6 +3,7 @@ import { Sun, Moon, Menu, X } from 'lucide-react';
 
 export default function Navbar({ theme, toggleTheme }) {
   const [isOpen, setIsOpen] = useState(false);
+  const logoUrl = `${import.meta.env.BASE_URL}developer-logo.png`;
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -20,7 +21,7 @@ export default function Navbar({ theme, toggleTheme }) {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center gap-2" href="#home">
           <img
-            src="/developer-logo.png"
+            src={logoUrl}
             alt="Logo"
             style={{ width: '36px', height: '36px', objectFit: 'contain' }}
           />

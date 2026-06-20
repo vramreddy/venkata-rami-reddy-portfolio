@@ -3,6 +3,8 @@ import { Mail, FileText, ArrowRight, ArrowLeft } from 'lucide-react';
 import { GithubIcon as Github, LinkedinIcon as Linkedin } from './Icons';
 
 export default function Hero() {
+  const profileImageUrl = `${import.meta.env.BASE_URL}profile.jpg`;
+
   return (
     <section id="home" className="hero-section d-flex align-items-center">
       {/* Decorative Blobs */}
@@ -112,7 +114,7 @@ export default function Hero() {
                 <div className="profile-grid-overlay"></div>
 
                 <img
-                  src="/profile.jpg"
+                  src={profileImageUrl}
                   alt="Venkata Rami Reddy"
                   className="profile-avatar"
                 />
