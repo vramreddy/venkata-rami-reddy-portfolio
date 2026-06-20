@@ -558,7 +558,7 @@
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  object-position: top right;
+  object-position: center;
   border: 4px solid var(--bg-secondary);
   transition: transform 0.5s ease;
 }
